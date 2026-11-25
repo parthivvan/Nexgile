@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# Generated SQLite databases & large simulated artifacts
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/settlements/*.csv
+data/fx_rates.csv
+logs/worker/*.log
+logs/worker/*.jsonl
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
